@@ -1,1 +1,1 @@
--- Your SQL here
+select top 1 * from(select * from students group by town_of_origin order by date_of_birth asc);
